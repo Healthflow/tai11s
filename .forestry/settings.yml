@@ -17,6 +17,6 @@ file_template: ":filename:"
 instant_preview: true
 build:
   preview_output_directory: _site
-  instant_preview_command: eleventy --serve --output=_site
+  instant_preview_command: npx eleventy --serve --output=_site
   preview_docker_image: nodejs:10
   mount_path: "/srv"
