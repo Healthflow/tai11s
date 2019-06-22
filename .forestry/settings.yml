@@ -15,3 +15,8 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: true
+build:
+  preview_output_directory: _site
+  instant_preview_command: eleventy --serve --output=_site
+  preview_docker_image: forestryio/build:latest
+  mount_path: "/opt/buildhome/repo"
