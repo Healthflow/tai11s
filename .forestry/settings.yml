@@ -18,7 +18,7 @@ instant_preview: true
 build:
   preview_env:
   - ELEVENTY_ENV=staging
-  preview_output_directory: _site
+  preview_output_directory: dist
   instant_preview_command: npm run dev
   preview_docker_image: node:10
   mount_path: "/srv"
