@@ -13,3 +13,5 @@ fields:
 - type: text
   name: description
   label: description
+pages:
+- src/posts/a-brand-new-post.md
